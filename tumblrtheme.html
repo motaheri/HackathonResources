@@ -21,6 +21,7 @@
         <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,400italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
 		
 		<!--[if lt IE 9]>
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -58,6 +59,7 @@
 	    font-family: 'Helvetica Neue', "Arial", sans-serif;
 	    font-size: 12px;
         line-height:1.8em;
+        background:#B77E7E;
         background-image:url('http://i.stack.imgur.com/eiReH.gif');
         padding-bottom: 150px;
 	    }
@@ -97,6 +99,13 @@
     }
     a:hover, a:active {
         text-decoration: underline;
+     }
+     .header-posts{
+        background: url(https://cdn.rawgit.com/motaheri/HackathonResources/master/clock/img/messy-bg.png) 15px 0px;
+        background-size: 94%;
+        background-repeat-x: no-repeat;
+        font-size: 16px;
+        padding: 20px 150px !important;
      }
 
     hr{
@@ -166,23 +175,29 @@
         padding-bottom: 20px;
         padding-top: 20px;
         text-align: center;
-        font-size: 11px;
+        font-size: 24px;
         text-transform: uppercase;
-        font-weight: 700;
         border-top: 2px solid {color:Dividers};
         border-bottom: 2px solid {color:Dividers};
-        font-family: 'Montserrat', 'Helvetica Neue', "Arial", sans-serif;
+        font-family: 'Permanent Marker', cursive;
+        background-color: rgba(0, 0, 0, 0.45);
+        /*font-family: 'Montserrat', 'Helvetica Neue', "Arial", sans-serif;*/
     }
         
     .nav li {
-        margin: 10px;
-        line-height: 12px;
+        margin: 10px 20px;
+        line-height: 24px;
         display: inline-block;
         margin-bottom:0px
     }
     
+    .nav li a{
+        color:#fff;
+        text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    }
+    
     .posts {
-        padding-top: 25px;
+        padding-top: 0px;
     }
     
     iframe {
@@ -198,8 +213,8 @@
         height:14px;
         line-height:1em;
         font-family: 'Montserrat', 'Helvetica Neue', "Arial", sans-serif;
-        padding-bottom:60px;
-        margin-top: 10px;
+        padding-bottom:15px;
+        margin-top: -30px;
         font-size:11px;
         color: {color:Meta};
         text-transform: uppercase;
@@ -446,7 +461,7 @@
         <link href='https://rawgit.com/motaheri/HackathonResources/master/clock/css/clock.css' rel='stylesheet' type='text/css'>
         <style>
             .clock{
-                margin-left:-100px;
+                margin-left:-65px;
                 -ms-transform: scale(0.7); /* IE 9 */
                 -webkit-transform: scale(0.7); /* Safari */
                 transform: scale(0.7);
