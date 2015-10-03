@@ -86,6 +86,7 @@
 .type_seconds {
     font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
     color:#ffdc50;
+	color:#fff;
     width:100px;
     text-align:center;
     font-size:13px;
