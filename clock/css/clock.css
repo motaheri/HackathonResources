@@ -41,9 +41,9 @@
     background-repeat:no-repeat;
 }
 
-.clock .text { position:absolute; top:45px; left:40px; width:100px;  height:100px;}
+.text { position:absolute; top:45px; left:40px; width:100px;  height:100px;}
 
-.clock .val {
+.val {
     font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
     font-size:47px;
     font-weight:bold;
