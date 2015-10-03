@@ -2,6 +2,15 @@
     width:845px;
     margin:0 auto;
 	height: 210px;
+	zoom: 0.7; /* IE */
+	-moz-transform: scale(0.7); /* Firefox */
+	-moz-transform-origin: 0 0;
+	-o-transform: scale(0.7); /* Opera */
+	-o-transform-origin: 0 0;
+	-webkit-transform: scale(0.7); /* Safari And Chrome */
+	-webkit-transform-origin: 0 0;
+	transform: scale(0.7); /* Standard Property */
+	transform-origin: 0 0;  /* Standard Property */
 }
 
 .clock_days {
@@ -34,7 +43,8 @@
     background-repeat:no-repeat;
 }
 
-.text { position:absolute; top:45px; left:42px; width:100px;  height:100px;}
+.text { position:absolute; top:45px; left:4
+px; width:100px;  height:100px;}
 
 .val {
     font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
